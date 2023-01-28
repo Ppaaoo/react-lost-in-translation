@@ -33,8 +33,8 @@ const Translate = () => {
             <div id="translation">
                 <TranslationForm onTranslate={handleTranslateClicked}/>
             </div>
-            <div>
-                {(translationArray[0]?.value !== undefined) ? translationArray[0].value.map((currentChar, index) => <img key={index} src={`img/individual_signs/${currentChar}.png`} alt={currentChar}/>) : ""}
+            <div className="justify-center grid grid-cols-12 text-center bg-gray-100 border-double border-4 border-gray-400 px-4 h-fit">
+                {(translationArray[0]?.value !== undefined) ? translationArray[0].value.map((currentChar, index) => <img key={index} src={`img/individual_signs/${currentChar}.png`} alt={currentChar} width="100"/>) : ""}
             </div>
         </div>
     )
