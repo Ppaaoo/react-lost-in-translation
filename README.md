@@ -1,3 +1,7 @@
+This application is a translation app that translates the input word to American sign language. It has a login page which only requires a username, the name is then saved to an API with the help of Railway.app. The user is then redirected to the profile page which shows the users last translations in text. Here the user is able to clear their translation history or logout from their account. The user can also navigate to the translation page by buttons at the top of the page. At the translation page the word that the user inputs in the inputbox is translated to ASL. A small fault in this application is that in order to be able to translate a new word, the user must refresh the page.
+
+The component tree of the application can be found here: https://www.figma.com/file/Why7erWUI4fufNtVr1oBlC/Untitled?t=nM4kaZiiuS4wbPCX-1 or in the folder component-tree in the src file
+
 # Create React App
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
